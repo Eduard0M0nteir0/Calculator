@@ -2,7 +2,7 @@ class Calculator():
     def __init__(self):
         pass
 
-    def calculate(x, y, op):
+    def calculate(self, x, y, op):
         try:
             x = float(x)
             y = float(y)
